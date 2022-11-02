@@ -1,0 +1,17 @@
+*{
+    --withPrincipal:50em
+    --heigtPrincipal:50em
+
+}
+.principalPhoto{
+    display: block;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.principalPhoto>img{
+    display: block;
+    width: 450px;
+    height: 450px;
+}

@@ -1,9 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Photo from './components/photo/photo';
 
 function App() {
   return (
-    <h2></h2>
+    <Photo>
+        <img src={require('./media/profile.jpeg')} alt=""  />
+    </Photo>
   );
 }
 
