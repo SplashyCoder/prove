@@ -36,29 +36,52 @@
     margin-right: 10px;
 }
 
+.linkContainer{
+    display: none;
+}
 
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
 
 
 
 @media screen and (max-width: 570px) {
-    *{
-        --textColor: #9d41e7 ;
-    }
+    
     .Header{
         /* background:#F0F0F1; */
         margin: 0;
         position:sticky;
         height: 80px;
+        /* top: -20; */
     }
     .Logo>h1{ 
         color: #9d41e7;
         display: flex;
     }
-    #HederLink{ 
-        padding: 5px;
-        text-decoration: none;
-        color:  #9d41e7;
+    .nav{ 
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 450px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        display: flex;
+        flex-direction:column;
+        flex-grow: 1;
     }
+    
     .contenido{
         display: flex;
         justify-content: space-between;
@@ -72,6 +95,7 @@
         align-items: center;
         overflow: hidden;
         justify-content: space;
+        margin-left: 20px;
     }
     .main_logo{
         position: relative;
@@ -80,18 +104,42 @@
         filter: grayscale();
         margin-right: 10px;
     }
-
+    .checkbtn{
+        display: block;
+    }
     .linkContainer{
-        width: 25px;
-        height: 25px;
+        width: 40px;
+        height: 40px;
         display: flex;
         flex-direction: column;
-        gap: 5px;
+        cursor: pointer;
+        gap: 9px;
+        margin-right: 10px;
     }
     .line{
         flex-grow: 1;
-        width: 25px;
-        height: 2px;
+        width: 100%;
+        /* height: 2px; */
         background-color: #9d41e7; ;
+        
+    }
+
+    #check:checked ~ nav{
+        left:0;
+    }
+
+    /* #HederLink: ~ .Header{
+        top: -80;
+    } */
+
+
+    .HederLink{
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .name{
+        margin-left: 20px;
+        /* margin-right: 5px; */
     }
 }
