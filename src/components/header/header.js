@@ -22,11 +22,11 @@ const Header = ({titulo,logo}) =>(
                 </div>
             </label>
             <nav className='nav'>
-                <NavLink id='HederLink' to = "index.html" onChange={Header}>Home</NavLink>
-                <NavLink id='HederLink' to = "" onClick={CloseEvent} >Projects</NavLink>
-                <NavLink id='HederLink' to = "/" onClick={CloseEvent} >Education</NavLink>
-                <NavLink id='HederLink' to = "/" onClick={CloseEvent} >About</NavLink> 
-                <NavLink id='HederLink' to = "/" onClick={CloseEvent} >contact</NavLink> 
+                <NavLink id='HederLink' to =".Header"  >Home</NavLink>
+                <NavLink id='HederLink' to = "index.html"  >Projects</NavLink>
+                <NavLink id='HederLink' to = "index.html"  >Education</NavLink>
+                <NavLink id='HederLink' to = "index.html"  >About</NavLink> 
+                <NavLink id='HederLink' to = "index.html"  >contact</NavLink> 
             </nav>
             
         </div> 
