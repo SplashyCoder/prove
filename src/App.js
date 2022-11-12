@@ -22,7 +22,7 @@ const App = () => (
     />
     <DividerDown/>
     <Divider
-      title = 'habilidades'
+      title = 'Skills'
     />
     <Slider/>
     <DividerDown/>
