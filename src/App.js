@@ -2,6 +2,7 @@ import './App.css';
 import Photo from './components/photo/photo';
 import { Divider, DividerDown } from './components/divider/divider';
 import Header from './components/header/header';
+import Slider from './components/slider/slider';
 
 import{
   BrowserRouter as Router,
@@ -19,6 +20,11 @@ const App = () => (
       titulo='David Pacheco'
       logo={require('../src/media/icon.png')} 
     />
+    <DividerDown/>
+    <Divider
+      title = 'habilidades'
+    />
+    <Slider/>
     <DividerDown/>
 
   {/* <Routes>

@@ -3,7 +3,7 @@
     /* background:#F0F0F1; */
     margin: 0;
     position:sticky;
-    height: 80px;
+    height: 75px;
 
 }
 .Logo>h1{ 
@@ -19,7 +19,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 10px; */
+    /* margin-left: ; */
+    padding:  0 10px;
 }
 
 .Logo{
@@ -27,6 +28,7 @@
     align-items: center;
     overflow: hidden;
     justify-content: space;
+    /* margin-left: 15px; */
 }
 .main_logo{
     position: relative;
@@ -53,6 +55,10 @@
     display: none;
 }
 
+/* .nav{
+    margin-right: 15px;
+}
+ */
 
 
 @media screen and (max-width: 570px) {
@@ -86,7 +92,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* padding: 10px; */
+        padding: 0;
     }
     
     
