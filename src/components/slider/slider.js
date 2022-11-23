@@ -82,7 +82,7 @@ return (
         <SwiperSlide>
             <button className="cardButton">
                 {/* <a href="#" target="_blank" className="cardLink"> */}
-                    <div className='cardImage'><img src="{require('./media/react.png')}" alt=""/></div>
+                    <div className='cardImage'><img src="https://cdn-icons-png.flaticon.com/512/919/919851.png" alt=""/></div>
                 {/* </a> */}
             </button>            
         </SwiperSlide>

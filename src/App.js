@@ -3,6 +3,8 @@ import Photo from './components/photo/photo';
 import { Divider, DividerDown } from './components/divider/divider';
 import Header from './components/header/header';
 import Slider from './components/slider/slider';
+import Slider2 from './components/slider/slider2';
+import CardModules from './components/cards/cards';
 
 import{
   BrowserRouter as Router,
@@ -26,6 +28,23 @@ const App = () => (
     />
     <Slider/>
     <DividerDown/>
+    <Divider
+      title='Education'
+    />
+    <Slider2/>
+    <DividerDown/>
+    <Divider
+    title='Sobre mi'
+  />
+  <CardModules.Card>
+    <p>
+      Soy una persona paciente, con buenas habilidades blandas y técnicas
+      adicionalmente me mantengo en contacto con las habilidades y herramientas en
+      la vanguardia del desarrollo. Tengo experiencia con proyectos tanto propios como
+      académicos en roles Frontend y Backend. Trabajo principalmente en plataformas
+      Linux, sin embargo, me desenvuelvo con facilidad en entornos Windows o Mac.
+    </p>
+  </CardModules.Card>
 
   {/* <Routes>
     <Route path="/" element={<Home/>} />
