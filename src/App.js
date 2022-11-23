@@ -5,6 +5,8 @@ import Header from './components/header/header';
 import Slider from './components/slider/slider';
 import Slider2 from './components/slider/slider2';
 import CardModules from './components/cards/cards';
+import Contact from './contact/contact';
+import Footer from './components/footer/footer';
 
 import{
   BrowserRouter as Router,
@@ -37,15 +39,19 @@ const App = () => (
     title='Sobre mi'
   />
   <CardModules.Card>
-    <p>
-      Soy una persona paciente, con buenas habilidades blandas y técnicas
-      adicionalmente me mantengo en contacto con las habilidades y herramientas en
-      la vanguardia del desarrollo. Tengo experiencia con proyectos tanto propios como
-      académicos en roles Frontend y Backend. Trabajo principalmente en plataformas
-      Linux, sin embargo, me desenvuelvo con facilidad en entornos Windows o Mac.
+    <p className='description'>
+    I’m a pacient person, with good soft and technical skills, futher I hold up in touch
+    with the tools and skills in the development vanguard. I have experience in
+    personal and academic projects in Frontend and Backend roles. Actually work in
+    Linux platforms, however, I unwrap easily in Windows and Mac enviroments.
     </p>
   </CardModules.Card>
-
+  <Divider
+    title='Contact'
+  />  
+    <Contact/>
+  <DividerDown/>
+  <Footer></Footer>
   {/* <Routes>
     <Route path="/" element={<Home/>} />
     <Route path="" element={<Project/>} />

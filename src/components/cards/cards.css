@@ -55,14 +55,15 @@ body.active-modal {
     height: 250px;
     margin-right: 15px;
     margin-left: 15px;
-
 }
 .modalButton{
     width: 100%;
     height: 100%;
     border-radius: 20px;
     background : rgba(0, 0, 0, 0) !important;
-    border-color: rgba(0, 0, 0, 0) !important;;
+    border-color: rgba(0, 0, 0, 0) !important;
+    color: #9d41e7;
+
 }
 
 .modalPrincipal>img{
@@ -93,7 +94,8 @@ body.active-modal {
 }
 
 .imageButton{
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
     width: 100px;
     height: 100px;
 }
@@ -102,6 +104,11 @@ body.active-modal {
     width: 90px;
     height: 90px;
 }
+
+.cardImage{
+    border-color: transparent;
+}
+
 
 @media screen and (max-width: 800px) {
     .modalPrincipal>img{
