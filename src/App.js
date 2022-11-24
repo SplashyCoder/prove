@@ -13,17 +13,34 @@ import{
   // Routes,
   // Route
 }from "react-router-dom"
+import {NavLink} from 'react-router-dom'
+
 
 const App = () => (
   <Router>
     <Photo>
       <img src={require('./media/profile.jpeg')} alt=""  />
     </Photo>
-    <Divider/>
+    <Divider id='Header'/>
     <Header
       titulo='David Pacheco'
-      logo={require('../src/media/icon.png')} 
-    />
+      // logo={require('../src/media/icon.png')} 
+    >
+     {/* <nav>
+     <NavLink id='HederLink' to ="/Header"  >Home</NavLink>
+      <NavLink id='HederLink' to = "/Slider"  >Skills</NavLink>
+      <NavLink id='HederLink' to = "https://splashycoder.github.io/splashyCoderPortfolio/"  >Education</NavLink>
+      <NavLink id='HederLink' to = "https://splashycoder.github.io/splashyCoderPortfolio/"  >About me</NavLink> 
+      <NavLink id='HederLink' to = "https://splashycoder.github.io/splashyCoderPortfolio/"  >contact</NavLink> 
+     </nav> */}
+     {/* <ul>
+      <il><a href="">Home</a></il>
+      <il><a href=""></a></il>
+      <il><a href=""></a></il>
+      <il><a href=""></a></il>
+      <il><a href=""></a></il>
+     </ul> */}
+    </Header>
     <DividerDown/>
     <Divider
       title = 'Skills'
@@ -53,10 +70,10 @@ const App = () => (
   <DividerDown/>
   <Footer></Footer>
   {/* <Routes>
-    <Route path="/" element={<Home/>} />
+    <Route path="/" element={<Header/>} />
     <Route path="" element={<Project/>} />
-    <Route path="" element={<Education/>} />
-    <Route path="" element={<About/>} />
+    <Route path="" element={<Slider2/>} />
+    <Route path="" element={<CardModules.Card/>} />
     <Route path="" element={<Contact/>} />
   </Routes> */}
   </Router>
