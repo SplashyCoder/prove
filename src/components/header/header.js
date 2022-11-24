@@ -13,14 +13,15 @@ const Header = ({titulo,logo}) =>(
                 <a href="https://splashycoder.github.io/splashyCoderPortfolio/ "><img className="main_logo" src={logo} alt="icon" /></a>
                 <h1 className='name'>{titulo}</h1>
             </div>
-            <input type="checkbox" id="check"/>
+            {/* drop down menu */}
+            {/* <input type="checkbox" id="check"/>
             <label htmlFor="check" className="checkbtn">
                 <div className="linkContainer">
                     <div className="line"></div>
                     <div className="line"></div>
                     <div className="line"></div>
                 </div>
-            </label>
+            </label> */}
             <nav className='nav'>
                 <NavLink id='HederLink' to ="https://splashycoder.github.io/splashyCoderPortfolio/"  >Home</NavLink>
                 <NavLink id='HederLink' to = "https://splashycoder.github.io/splashyCoderPortfolio/"  >Projects</NavLink>

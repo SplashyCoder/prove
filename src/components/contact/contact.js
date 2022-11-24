@@ -1,6 +1,6 @@
 import './contact.css'
 import React, { useState } from "react";
-import CardModules from '../components/cards/cards';
+import CardModules from '../cards/cards';
 
 
 const Mail = () =>{
@@ -85,8 +85,8 @@ const ModalContact = (props) =>{
 const Contact = ({}) =>{
     return(
         <div className="contact">
-            <section className="contactCard">
-                <CardModules.CardImage
+            <section className="contactCard2">
+                <CardModules.CardImage 
                     image  = 'https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg'
                     link = 'https://github.com/SplashyCoder'
                 />

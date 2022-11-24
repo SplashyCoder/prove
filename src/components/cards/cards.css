@@ -93,6 +93,10 @@ body.active-modal {
     width: 50px;
 }
 
+.certificateTitle{
+    text-decoration: none;
+}
+
 .imageButton{
     background-color: rgba(0, 0, 0, 0);
     border-color: rgba(0, 0, 0, 0);
@@ -115,4 +119,16 @@ body.active-modal {
         width: 15em;
         height: 15em;
     }
-  }
+
+    .modal-content{
+        /* height: 25em; */
+        width: 15em;
+    }
+    .modalList{
+        display: flex;
+        flex-direction: column ;
+    }
+    .certificateButton{
+        width: 100%;
+    }
+}

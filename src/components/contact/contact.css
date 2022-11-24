@@ -46,6 +46,8 @@ body.active-modal {
 .imagePrincipal{
     width: 90px;
     height: 90px;
+    /* filter: grayscale(100%); */
+    filter: brightness(10);
 }
 
 .contact{
@@ -59,4 +61,8 @@ body.active-modal {
 .image{
     border-color: rgba(0, 0, 0, 0) !important;
     border-radius: 50%;
+}
+
+.contactCard2>.imagePrincipal{
+    filter: brightness(10);
 }

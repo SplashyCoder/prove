@@ -4,9 +4,11 @@
     align-items: center;
     flex-direction: column;
     color: #9d41e7;
+    padding: 20px;
     
 }
 .footerLink{
     text-decoration: none;
     color: #9d41e7;
+
 }

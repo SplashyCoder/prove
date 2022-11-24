@@ -5,7 +5,7 @@ import Header from './components/header/header';
 import Slider from './components/slider/slider';
 import Slider2 from './components/slider/slider2';
 import CardModules from './components/cards/cards';
-import Contact from './contact/contact';
+import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 
 import{
@@ -36,7 +36,7 @@ const App = () => (
     <Slider2/>
     <DividerDown/>
     <Divider
-    title='Sobre mi'
+    title='About me'
   />
   <CardModules.Card>
     <p className='description'>

@@ -10,7 +10,7 @@ return (
                 image  = 'https://cdn-icons-png.flaticon.com/512/3534/3534033.png'
                 resume = 'Universidad Distrital Francisco Jose de Caldas'
             >
-                <h2>Estoy en el 7 semestre de la carrera</h2>
+                <h2>Actually Im in the 7th semester of the carrer </h2>
             </CardModules.CardModal>
             <CardModules.CardModal
                 image  = 'https://cdn-icons-png.flaticon.com/512/1838/1838102.png'
@@ -38,7 +38,7 @@ return (
                 />
                 <CardModules.CardCertificate
                     link  = 'https://ed.team/@davidpacheco/curso/reactjs'
-                    image  = 'http://localhost:3000/logo192.png'
+                    image  = 'https://cdn-icons-png.flaticon.com/512/919/919851.png'
                     title  = 'React'
                 />
             </CardModules.CardModal>
