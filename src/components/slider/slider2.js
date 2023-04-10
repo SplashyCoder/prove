@@ -37,7 +37,7 @@ return (
                     title  = 'Boostrap'
                 />
                 <CardModules.CardCertificate
-                    link  = 'https://ed.team/@davidpacheco/curso/reactjs'
+                    link  = 'https://app.ed.team/u/davidpacheco/curso/react-2021'
                     image  = 'https://cdn-icons-png.flaticon.com/512/919/919851.png'
                     title  = 'React'
                 />
